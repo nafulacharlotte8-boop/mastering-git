@@ -1,0 +1,70 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+}
+.navigation{
+    margin-left: 300px;
+    background-color: rgb(212, 26, 166);
+}
+
+.nuvba{
+    width: 100%;
+    height: auto;
+}
+nuv ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+
+nuv ul li{
+   
+    margin:1px;
+    color: white;
+}
+
+
+nuv ul li:hover{
+    background-color:rgb(148, 22, 116);
+}
+
+
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    background: black;
+    height: 100vh;
+}
+
+
+nav ul li{
+    margin: 2px 0;
+    text-align: center;
+    width: 100%;
+    border: 1px solid blue;
+    padding: 30px 0;
+   
+}
+
+   
+nav ul li:hover {
+    background-color: #7e7070;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+nav ul li a{
+    color: antiquewhite;
+    display: block;
+    transition: all 0.3s ease;
+    
+}

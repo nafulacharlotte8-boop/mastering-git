@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+}
+
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.container{
+    text-align: center;
+}
+.buttons{
+    padding: 10px 20px;
+    margin: 2px;
+    font-size: 1.5em;
+    color: white;
+    background: rgb(0, 204, 255);
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.buttons:hover{
+    background-color: blue;
+}
+
+#mybutton{
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
